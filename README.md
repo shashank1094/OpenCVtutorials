@@ -7,3 +7,4 @@ OpenCV (Open Source Computer Vision) is a library of programming functions mainl
 3. opencv-python
 4. scikit-image
 5. imutils
+6. pyzbar
