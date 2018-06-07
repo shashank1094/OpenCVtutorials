@@ -25,4 +25,4 @@ print("Python Version", sys.version)
 # imutils version 0.4.6
 # skimage version 0.14.0
 # sklearn version 0.19.1
-# Python Version 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 17:00:18) [MSC v.1900 64 bit (AMD64)]
+# Python Version 3.6.5

@@ -38,3 +38,10 @@ for barcode in barcodes:
 # show the output image
 cv2.imshow("Image", image)
 cv2.waitKey(0)
+
+# HOW TO RUN THIS PROGRAM
+# python barcode_and_qr_code_scanner/barcode_scanner_image.py -i barcode_and_qr_code_scanner/test_images/barcodeTut_image1.png
+# [INFO] Found CODE128 barcode: 01095011015300031714070410AB-123
+#
+# python barcode_and_qr_code_scanner/barcode_scanner_image.py -i barcode_and_qr_code_scanner/test_images/barcodeTut_image2.png
+# [INFO] Found QRCODE barcode: http://en.m.wikipedia.org
