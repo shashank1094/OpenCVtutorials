@@ -9,3 +9,9 @@ OpenCV (Open Source Computer Vision) is a library of programming functions mainl
 5. imutils
 6. pyzbar
 7. scikit-learn
+
+[Machine Learning Crach Course](https://developers.google.com/machine-learning/crash-course/)
+
+[Getting Started for ML Beginners](https://www.tensorflow.org/get_started/get_started_for_beginners)
+
+[Getting Started with TensorFlow](https://www.tensorflow.org/get_started/premade_estimators)

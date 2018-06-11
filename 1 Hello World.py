@@ -17,6 +17,12 @@ print("skimage version", skimage.__version__)
 print("sklearn version", sklearn.__version__)
 print("Python Version", sys.version)
 
+import tensorflow as tf
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()
+print(sess.run(hello))
+
+
 # Hello World
 # Numpy version 1.14.3
 # Matplotlib version 2.2.2
