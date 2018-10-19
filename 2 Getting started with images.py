@@ -4,6 +4,8 @@ import cv2
 # #####################################
 # os.walk(PATH) To traverse a folder recursively.
 # #####################################
+# CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+# IMAGES_FOLDER_PATH = os.path.join(CURRENT_DIR, "Images")
 # for BASE_DIR, SUB_DIRS, FILES in os.walk(IMAGES_FOLDER_PATH):
 #     print(BASE_DIR, SUB_DIRS, FILES)
 
@@ -14,7 +16,8 @@ IMAGE_FILE = os.path.join(IMAGES_FOLDER_PATH, "image1_3840x2160.jpg")
 # ######################################
 #  Read an image
 # ######################################
-# Use the function cv2.imread() to read an image. The image should be in the working directory or a full path of image should be given.
+# Use the function cv2.imread() to read an image.
+# The image should be in the working directory or a full path of image should be given.
 # Even if the image path is wrong, it won’t throw any error, but the object returned will give you None
 # Second argument is a flag which specifies the way image should be read.
 # • cv2.IMREAD_COLOR : Loads a color image. Any transparency of image will be neglected. It is the default flag.
@@ -35,8 +38,10 @@ print("All attributes :", dir(img))
 # as you wish, but with different window names.
 #
 # cv2.waitKey() is a keyboard binding function. Its argument is the time in milliseconds. The function waits for
-# specified milliseconds for any keyboard event. If you press any key in that time, the program continues. If 0 is passed,
-# it waits indefinitely for a key stroke. It can also be set to detect specific key strokes like, if key a is pressed etc which
+# specified milliseconds for any keyboard event.
+# If you press any key in that time, the program continues. If 0 is passed,
+# it waits indefinitely for a key stroke.
+# It can also be set to detect specific key strokes like, if key a is pressed etc which
 # we will discuss below.
 #
 # cv2.destroyAllWindows() simply destroys all the windows we created. If you want to destroy any specific window,
