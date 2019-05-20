@@ -17,9 +17,11 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 IMAGES_FOLDER_PATH = os.path.join(CURRENT_DIR, "Images")
 IMAGE_FILE = os.path.join(IMAGES_FOLDER_PATH, "image2.jpg")
 image = cv2.imread(IMAGE_FILE)
-cv2.imshow("image", image)
+hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+cv2.imshow("image", hsv)
+# cv2.imshow("image", image)
 cv2.waitKey(0)
-# cv2.destroyAllWindows()
+cv2.destroyAllWindows()
 
 ##########################################################
 # Gray color histogram

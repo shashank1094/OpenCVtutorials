@@ -15,3 +15,5 @@ OpenCV (Open Source Computer Vision) is a library of programming functions mainl
 [Getting Started for ML Beginners](https://www.tensorflow.org/get_started/get_started_for_beginners)
 
 [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/premade_estimators)
+
+[Tutoirals](tutorials/tutorials.md)
